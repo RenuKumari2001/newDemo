@@ -4,6 +4,13 @@ class User {
 	private int userId;
 	private String userName;
 	private long phoneNumber;
+	private String password;
+	public String getPassword() {
+		return password;
+	}
+	public void setPassword(String password) {
+		this.password = password;
+	}
 	public int getUserId() {
 		return userId;
 	}
